@@ -135,8 +135,3 @@ if __name__ == '__main__':
         # Сохранение нового состояния
         with open(file, 'w') as f:
             json.dump(new_state, f)
-
-# TODO: Сделать так, чтобы hive не был в check_changes
-
-# TODO: Отправка Alert в Zabbix
-# TODO: Запуск IVRE по расписанию
